@@ -1,16 +1,59 @@
-# React + Vite
+EYENIX
+Sistema Inteligente de Gestión de Citas Médicas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EYENIX es una plataforma web desarrollada para optimizar la administración de citas médicas dentro de instituciones de salud. El sistema permite gestionar pacientes, médicos, horarios y citas de manera eficiente, reduciendo tiempos de espera y mejorando la experiencia tanto para el personal administrativo como para los pacientes.
 
-Currently, two official plugins are available:
+Descripción del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La gestión tradicional de citas médicas suele presentar problemas relacionados con la saturación de agendas, errores administrativos y largos tiempos de espera. EYENIX surge como una solución tecnológica que automatiza los procesos de programación, modificación y seguimiento de citas médicas, facilitando la organización y mejorando la calidad del servicio.
 
-## React Compiler
+Objetivo General
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Desarrollar un sistema web para la gestión integral de citas médicas que permita optimizar los procesos administrativos, mejorar la organización de agendas médicas y brindar una mejor experiencia a los pacientes.
 
-## Expanding the ESLint configuration
+Funcionalidades Principales:
+Gestión de Pacientes
+Registro de pacientes.
+Consulta y actualización de información.
+Búsqueda de pacientes.
+Administración de expedientes.
+Gestión de Citas
+Programación de citas médicas.
+Modificación de citas existentes.
+Cancelación de citas.
+Reprogramación de horarios.
+Consulta de calendario de citas.
+Gestión de Médicos
+Registro de médicos.
+Administración de horarios.
+Consulta de agenda médica.
+Gestión de especialidades.
+Gestión Administrativa
+Administración de usuarios.
+Control de roles y permisos.
+Generación de reportes.
+Historial de cambios.
+Notificaciones
+Recordatorios automáticos de citas.
+Notificaciones de cancelación.
+Confirmaciones de programación.
+Avisos de reprogramación.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Roles del Sistema:
+Paciente
+Solicitar citas.
+Consultar citas programadas.
+Cancelar citas.
+Recepcionista
+Registrar pacientes.
+Gestionar citas médicas.
+Actualizar información de pacientes.
+Médico
+Consultar agenda médica.
+Visualizar citas programadas.
+Administrador
+Gestionar usuarios.
+Configurar permisos.
+Generar reportes.
+Supervisar el sistema.
